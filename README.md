@@ -14,6 +14,7 @@ A responsive student workspace designed to make school feel more manageable.
 - Study library for links, notes, readings, and guides
 - Degree-credit progress tracking
 - Search, filters, JSON backup/restore, and CSV assignment export
+- Syllabus importer for PDF/TXT uploads or pasted text, with editable previews, course assignment, date detection, duplicate checks, and review-before-import
 - Theme choices, text-size controls, compact layout, and mobile navigation
 - Progressive web app manifest and a service worker that checks the network first so published updates are not stuck behind an old cached HTML file
 
@@ -24,7 +25,7 @@ The app keeps using the `schoolHQ.v1.data` browser-storage key and adds defaults
 The app is local-first: assignments, course notes, and resources are stored in the browser on the device you use. No account or cloud upload is active in this build. Cross-device sign-in and sync require a properly configured backend such as Supabase, including authentication, a database, and row-level access policies. Do not put service-role keys or other private secrets in frontend code.
 
 ## Publish
-This is a static site and can be hosted on GitHub Pages. The repository's published branch and folder must point to the branch containing the site files. The app is being prepared on the `rebuild-v2` branch so the current live version remains untouched while the replacement is reviewed.
+This is a static site and can be hosted on GitHub Pages. The repository's published branch and folder must point to the branch containing the site files. The published app is maintained on the `main` branch.
 
 ## Backups
 Use **Settings & backups → Export full backup** regularly. Store JSON backups somewhere private. The CSV export contains assignment data only.
