@@ -1,4 +1,4 @@
-const CACHE_NAME = 'school-hq-v7-shell';
+const CACHE_NAME = 'school-hq-v8-shell';
 const SHELL_FILES = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(
