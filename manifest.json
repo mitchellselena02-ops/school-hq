@@ -1,13 +1,13 @@
 {
   "name": "School HQ — Your Student Workspace",
   "short_name": "School HQ",
-  "description": "A private, browser-based workspace for courses, assignments, study resources, and degree progress.",
+  "description": "A calm, flexible workspace for courses, assignments, study sessions, and degree progress.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f6f5f1",
-  "theme_color": "#2f6e59",
+  "background_color": "#f5f6f2",
+  "theme_color": "#527d69",
   "icons": [
     { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
     { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
